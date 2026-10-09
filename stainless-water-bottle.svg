@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <rect width="400" height="300" fill="#f0f2f5" stroke="#cccccc" stroke-width="2"/>
+  <rect x="20" y="20" width="360" height="260" fill="#ffffff" stroke="#e0e0e0" rx="4"/>
+  
+      <!-- Cap -->
+      <rect x="187" y="65" width="26" height="15" rx="3" fill="#475569"/>
+      <path d="M 194 65 L 194 55 Q 200 50 206 55 L 206 65" fill="none" stroke="#475569" stroke-width="3"/>
+      <!-- Neck -->
+      <rect x="189" y="80" width="22" height="14" fill="#94a3b8"/>
+      <!-- Body -->
+      <path d="M 175 105 Q 175 94 189 94 L 211 94 Q 225 94 225 105 L 225 200 Q 225 205 215 205 L 185 205 Q 175 205 175 200 Z" fill="#cbd5e1" stroke="#64748b" stroke-width="2"/>
+      <!-- Highlight -->
+      <line x1="184" y1="108" x2="184" y2="198" stroke="#f8fafc" stroke-width="3" stroke-linecap="round"/>
+    
+  <!-- Text Label -->
+  <text x="200" y="228" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2d3748" text-anchor="middle">Stainless Steel Water Bottle</text>
+  <text x="200" y="250" font-family="Arial, sans-serif" font-size="13" fill="#718096" text-anchor="middle">Home</text>
+</svg>

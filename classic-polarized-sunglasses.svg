@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <rect width="400" height="300" fill="#f0f2f5" stroke="#cccccc" stroke-width="2"/>
+  <rect x="20" y="20" width="360" height="260" fill="#ffffff" stroke="#e0e0e0" rx="4"/>
+  
+      <!-- Left Lens & Frame -->
+      <rect x="125" y="130" width="65" height="42" rx="14" fill="#0f172a" stroke="#1e293b" stroke-width="5"/>
+      <!-- Right Lens & Frame -->
+      <rect x="210" y="130" width="65" height="42" rx="14" fill="#0f172a" stroke="#1e293b" stroke-width="5"/>
+      <!-- Bridge -->
+      <path d="M 190 138 Q 200 132 210 138" fill="none" stroke="#1e293b" stroke-width="5"/>
+      <!-- Temples -->
+      <line x1="125" y1="135" x2="110" y2="128" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+      <line x1="275" y1="135" x2="290" y2="128" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+      <!-- Lens Reflections -->
+      <line x1="140" y1="138" x2="155" y2="164" stroke="#38bdf8" stroke-width="2" opacity="0.7"/>
+      <line x1="225" y1="138" x2="240" y2="164" stroke="#38bdf8" stroke-width="2" opacity="0.7"/>
+    
+  <!-- Text Label -->
+  <text x="200" y="228" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2d3748" text-anchor="middle">Classic Polarized Sunglasses</text>
+  <text x="200" y="250" font-family="Arial, sans-serif" font-size="13" fill="#718096" text-anchor="middle">Accessories</text>
+</svg>

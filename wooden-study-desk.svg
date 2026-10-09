@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <rect width="400" height="300" fill="#f0f2f5" stroke="#cccccc" stroke-width="2"/>
+  <rect x="20" y="20" width="360" height="260" fill="#ffffff" stroke="#e0e0e0" rx="4"/>
+  
+      <!-- Table Top -->
+      <rect x="110" y="125" width="180" height="14" rx="2" fill="#b45309" stroke="#78350f" stroke-width="2"/>
+      <!-- Left Legs -->
+      <rect x="122" y="139" width="10" height="66" fill="#78350f"/>
+      <rect x="136" y="139" width="10" height="66" fill="#92400e"/>
+      <!-- Right Drawers Unit -->
+      <rect x="235" y="139" width="45" height="66" fill="#d97706" stroke="#78350f" stroke-width="2"/>
+      <!-- Drawer handles & dividers -->
+      <line x1="235" y1="161" x2="280" y2="161" stroke="#78350f" stroke-width="2"/>
+      <line x1="235" y1="183" x2="280" y2="183" stroke="#78350f" stroke-width="2"/>
+      <circle cx="257" cy="150" r="2.5" fill="#451a03"/>
+      <circle cx="257" cy="172" r="2.5" fill="#451a03"/>
+      <circle cx="257" cy="194" r="2.5" fill="#451a03"/>
+    
+  <!-- Text Label -->
+  <text x="200" y="228" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2d3748" text-anchor="middle">Wooden Study Desk</text>
+  <text x="200" y="250" font-family="Arial, sans-serif" font-size="13" fill="#718096" text-anchor="middle">Furniture</text>
+</svg>

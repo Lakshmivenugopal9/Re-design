@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <rect width="400" height="300" fill="#f0f2f5" stroke="#cccccc" stroke-width="2"/>
+  <rect x="20" y="20" width="360" height="260" fill="#ffffff" stroke="#e0e0e0" rx="4"/>
+  
+      <!-- Rolled Up Mat -->
+      <ellipse cx="150" cy="140" rx="20" ry="35" fill="#059669" stroke="#047857" stroke-width="3"/>
+      <path d="M 150 105 L 260 120 A 20 35 0 0 1 260 190 L 150 175 Z" fill="#10b981" stroke="#047857" stroke-width="3"/>
+      <ellipse cx="260" cy="155" rx="20" ry="35" fill="#34d399" stroke="#047857" stroke-width="2"/>
+      <!-- Carrying Strap -->
+      <rect x="175" y="110" width="8" height="63" fill="#1f2937"/>
+      <rect x="225" y="117" width="8" height="65" fill="#1f2937"/>
+      <path d="M 175 110 Q 200 80 225 117" fill="none" stroke="#1f2937" stroke-width="4"/>
+    
+  <!-- Text Label -->
+  <text x="200" y="228" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2d3748" text-anchor="middle">Yoga Exercise Mat</text>
+  <text x="200" y="250" font-family="Arial, sans-serif" font-size="13" fill="#718096" text-anchor="middle">Lifestyle</text>
+</svg>
