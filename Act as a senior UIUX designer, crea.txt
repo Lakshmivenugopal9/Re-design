@@ -1,0 +1,109 @@
+Act as a senior UI/UX designer, creative frontend engineer, motion designer, and software tester. Your task is to transform my existing college attendance tracker into an exceptionally polished, modern, competition-quality web application.
+
+IMPORTANT WORKFLOW:
+Inspect the entire existing project before editing. Understand its framework, components, styling, routes, state management, and every existing interaction. Make the improvements directly in the project files. Do not make me manage multiple conversation threads or repeatedly explain requirements. Complete the redesign in one coordinated implementation, then test it. Ask questions only if an essential requirement is genuinely unclear.
+
+1. VISUAL DIRECTION
+Create a distinctive, premium, futuristic yet professional interface—not a generic dashboard or a basic template. Use excellent typography, visual hierarchy, carefully balanced whitespace, consistent spacing, refined colors, sophisticated surfaces, depth, layered elements, polished icons, and a cohesive design system. Make it feel like a product built by a top design team.
+
+2. ADVANCED MOTION AND 3D EXPERIENCE
+- Create smooth, scroll-triggered reveals and layered depth effects; elements should subtly move, rotate, expand, or gain dimension as the user scrolls where appropriate.
+- Use tasteful 3D card tilts, perspective, parallax, depth, and lighting effects where they improve the experience.
+- Make interactive elements respond immediately to pointer movement with subtle glow, spotlight, border highlights, magnetic movement, or cursor-following effects where appropriate.
+- Add smooth page and section transitions, polished hover states, button feedback, animated charts, and elegant loading indicators.
+- Use small animated dots, skeletons, or progress indicators only when something is genuinely loading.
+- Use a custom cursor effect only if it improves usability; never replace the normal cursor in a way that harms accessibility.
+- Motion must feel fluid and intentional, not excessive, distracting, or slow. Avoid animation on every element.
+- Prefer CSS transforms, opacity, IntersectionObserver, and lightweight solutions. Use WebGL/Three.js only if it materially improves the experience and can run reliably.
+- Respect prefers-reduced-motion and provide a comfortable experience on touchscreens and low-powered devices.
+
+3. ATTENDANCE TRACKER FUNCTIONAL REQUIREMENTS
+Preserve and implement all of the following requirements. If an existing feature already works, retain it and improve its presentation rather than replacing it.
+
+FIRST OPEN:
+- Open directly into the app without mandatory login or signup.
+- Do not require a phone number or email.
+- Contact details may be optional in the future for notifications, only with user permission.
+
+MAIN DASHBOARD:
+- Display today's day and date prominently.
+- Show today's scheduled classes and their attendance status.
+- Provide clear Present and Absent actions for each eligible class.
+- Show each subject's attendance percentage before marking and update it immediately after marking.
+- Do not show attendance-marking controls for holidays or unscheduled classes.
+- Include an Add Class feature for the selected day.
+
+DATE NAVIGATION AND ATTENDANCE:
+- Clicking the displayed date opens a full calendar.
+- Allow attendance entry or correction for past dates only.
+- Never allow attendance marking for future dates.
+- Provide quick navigation to yesterday and the day before yesterday.
+- Show the correct timetable for the selected past date.
+- Allow the user to replace a scheduled subject when the actual class was different, and add an extra class that was not on the original timetable.
+- Allow previously entered attendance to be corrected without losing other records.
+
+SIDEBAR:
+Include exactly these primary sections:
+1. Overall Attendance
+2. Manage Subjects
+3. All Subjects
+4. Settings
+
+OVERALL ATTENDANCE:
+Calculate overall attendance using total classes attended divided by total classes held across all subjects, multiplied by 100. Display the percentage clearly and present useful visual summaries without misleading calculations.
+
+MANAGE SUBJECTS:
+- Add, edit, and delete subjects.
+- Store subject names and their scheduled class days.
+- Display attended classes, total classes, and current attendance percentage.
+- Update attendance calculations consistently when valid records change.
+
+ALL SUBJECTS:
+- List all subjects.
+- Clicking a subject opens its attendance calendar.
+- Use a proper monthly calendar layout from Sunday through Saturday.
+- Show attendance status for recorded dates.
+- Support month navigation and past-date corrections.
+- Block future-date attendance entry.
+
+TIMETABLE SETUP AND UPDATES:
+- Support manual timetable setup and timetable upload.
+- Provide a clean path for entering the timetable day by day.
+- Where feasible, support uploading a timetable image and extracting subjects and days using OCR/AI, with a manual review and correction step before saving. Do not pretend extraction succeeded if it failed.
+- Timetable changes must apply going forward without overwriting historical attendance.
+- Preserve the timetable version associated with earlier attendance records.
+
+SETTINGS AND DATA:
+- Provide useful settings for managing the app and its appearance.
+- Keep data persistent across refreshes and sessions using the project's existing backend/database when available.
+- Do not silently rely on temporary component state for important records.
+- Do not introduce fake authentication, fake saved data, or nonfunctional settings.
+- Any notifications using email or phone must remain optional and require explicit consent.
+
+4. UX AND INTERACTION QUALITY
+- Make navigation intuitive and fast, with immediate visual feedback.
+- Ensure every button, menu, filter, modal, form, calendar control, and action works.
+- Provide clear empty states, validation, confirmation for destructive actions, and useful error messages.
+- Prevent accidental duplicate attendance entries and inconsistent totals.
+- Make the app responsive on desktop, tablet, and mobile.
+- Maintain accessibility: keyboard navigation, visible focus, sufficient contrast, semantic HTML, and screen-reader labels.
+- Use consistent icons, transitions, border radii, shadows, spacing, and interaction patterns throughout.
+
+5. TECHNICAL SAFETY
+- Preserve the existing framework, project structure, working routes, business logic, and integrations wherever possible.
+- Do not rewrite the app from scratch just to achieve a different appearance.
+- Do not remove, rename, or break IDs, handlers, props, APIs, data fields, or state relied upon by existing functionality.
+- Prefer reusable components and shared design tokens.
+- Avoid unnecessary dependencies, oversized assets, excessive effects, and console errors.
+- Never expose secrets or API keys in frontend code.
+- Do not claim a feature works unless it has been implemented and tested.
+
+6. IMPLEMENTATION AND TESTING
+First identify the existing features and create a short internal checklist. Then implement the complete redesign in the existing files. Do not stop after giving suggestions, mockups, or sample code.
+Run the available build and checks. Test the main user flows: adding and editing subjects, adding classes, marking and correcting attendance, date restrictions, calendar navigation, percentage calculations, timetable changes, persistence, and responsive layouts. Fix any regressions introduced by the redesign.
+
+7. FINAL DELIVERABLE
+Leave the complete working project in its existing structure. Provide a concise summary of the visual changes, motion effects, preserved features, tests actually performed, any incomplete integrations, and the exact steps to run the app and package the complete project into a ZIP file for submission.
+
+FINAL PRIORITY:
+Make it visually memorable enough to stand out in an AI-powered UI redesign competition, while keeping it genuinely usable, fast, accessible, technically reliable, and faithful to every existing feature. Prioritize exceptional execution over adding flashy effects that do not improve the experience.
